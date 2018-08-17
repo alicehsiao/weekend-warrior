@@ -9,6 +9,6 @@ end
 
 
 # Positional Arguments
-def hello_world (name = "World")
+def hello_world (name = "")
   return name == "" ? "Hello, World!" : "Hello, #{name}!"
 end
